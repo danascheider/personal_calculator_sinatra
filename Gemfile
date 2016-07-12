@@ -1,0 +1,9 @@
+source "https://rubygems.org"
+
+gem "sinatra", "~> 1.4", ">= 1.4.7"
+
+group :development, :test do 
+  gem "rake", "~> 11.2"
+  gem "rspec", "~> 3.5"
+  gem "rambo_ruby", "~> 0.5"
+end
