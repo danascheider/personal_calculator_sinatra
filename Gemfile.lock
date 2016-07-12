@@ -57,7 +57,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  puma
+  puma (~> 3.4)
   rake (~> 11.2)
   rambo_ruby (~> 0.5)
   rspec (~> 3.5)
