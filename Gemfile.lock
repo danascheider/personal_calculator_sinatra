@@ -60,6 +60,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activesupport (~> 5.0)
   byebug (~> 9.0)
   puma (~> 3.4)
   rack-test (~> 0.6)

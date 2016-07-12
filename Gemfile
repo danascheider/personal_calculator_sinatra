@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 gem "sinatra", "~> 1.4", ">= 1.4.7"
 gem "puma", "~> 3.4"
+gem "activesupport", "~> 5.0"
 
 group :development, :test do 
   gem "rake", "~> 11.2"
