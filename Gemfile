@@ -8,4 +8,5 @@ group :development, :test do
   gem "rspec", "~> 3.5"
   gem "rambo_ruby", "~> 0.5"
   gem "rack-test", "~> 0.6"
+  gem "byebug", "~> 9.0"
 end
