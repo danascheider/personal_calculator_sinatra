@@ -6,6 +6,7 @@ module ApiHelper
   include Rack::Test::Methods
 
   def app
+    require "active_support/core_ext/class/subclasses"
     Sinatra::Application
   end
 end
